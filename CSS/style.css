@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+
+}
+#MktContent {
+    background-color: purple;
+}
+
+#navbar-content {
+    background-color: rgb(0, 127, 237);
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 1%;
+    padding-top: 20px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#page-1{
+    background-image: url(/Images/div_after.svg);
+    height: 200px;
+}
+
